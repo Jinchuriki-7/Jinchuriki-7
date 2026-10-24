@@ -5,10 +5,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Passionate+about+Problem+Solving;Exploring+Artificial+Intelligence;Building+Projects+and+Learning+Every+Day" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jinchuriki-7&label=Profile%20Views&color=00D9FF&style=flat" alt="Profile Views" />
-</p>
-
 ---
 
 ## 👨‍💻 About Me

@@ -1,5 +1,6 @@
-# 💫 About Me:
-Computer Science & Engineering Student | Software Developer | Competitive Programmer | Exploring AI & Machine Learning<br>
+Hi, I'm Farhanul Haque 👋
+
+I'm a Computer Science and Engineering student passionate about software development, problem-solving, and artificial intelligence.
 
 
 ## 🌐 Socials:

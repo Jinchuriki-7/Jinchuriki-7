@@ -51,11 +51,17 @@ I'm a Computer Science and Engineering student passionate about software develop
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Jinchuriki-7&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" width="90%" alt="GitHub Contribution Streak" />
 </p>
+
 ---
+
 <p align="center">
   <i>"Consistency is the key to becoming a better developer."</i>
 </p>
 
 <p align="center">
   ⭐ Thanks for visiting my profile!
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Jinchuriki-7&label=Profile%20Views&color=00D9FF&style=flat" alt="Profile Views" />
 </p>

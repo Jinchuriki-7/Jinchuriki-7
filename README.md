@@ -52,22 +52,20 @@ I'm a Computer Science and Engineering student passionate about software develop
 </p>
 
 ---
-
-## 🏆 Codeforces Statistics
+## 🏆 Codeforces Practice Streak
 
 <p align="center">
   <a href="https://codeforces.com/profile/Samii-7">
-    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Samii-7" width="90%" alt="Codeforces Statistics" />
+    <img src="./assets/codeforces-heatmap.svg" width="100%" alt="Codeforces Practice Activity" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://codeforces.com/profile/Samii-7">
-    <img src="https://img.shields.io/badge/Visit-Codeforces%20Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Visit Codeforces Profile" />
+    <img src="https://img.shields.io/badge/Codeforces-Samii--7-00D9FF?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Profile" />
   </a>
 </p>
-
----
+```
 
 <p align="center">
   <i>"Consistency is the key to becoming a better developer."</i>
@@ -80,4 +78,3 @@ I'm a Computer Science and Engineering student passionate about software develop
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Jinchuriki-7&label=Profile%20Views&color=00D9FF&style=flat" alt="Profile Views" />
 </p>
-```

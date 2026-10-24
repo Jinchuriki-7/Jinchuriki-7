@@ -13,17 +13,20 @@
 
 ## 👨‍💻 About Me
 
-* 🎓 Computer Science and Engineering student
-* 💻 Practicing Data Structures and Algorithms
-* 🚀 Building projects and exploring new technologies
-* 🤖 Interested in Artificial Intelligence and Machine Learning
-* 🎯 Focused on problem-solving and continuous learning
+<img align="right" width="300" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/master/techstack.gif" alt="Developer coding animation">
+
+I'm a Computer Science and Engineering student passionate about software development and problem-solving.
+
+* 💻 Interested in Data Structures, Algorithms, and Competitive Programming.
+* 🚀 Developing practical software projects and exploring modern technologies.
+* 🤖 Exploring Artificial Intelligence and Machine Learning.
+* 🎯 Focused on writing clean code and continuously improving my engineering skills.
 
 ## 🌐 Connect With Me
 
 <p align="left">
-  <a href="https://github.com/Jinchuriki-7">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://www.linkedin.com/in/farhanul-haque-sami-a1a455399">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:farhan9t1l@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -48,9 +51,7 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Jinchuriki-7&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" width="90%" alt="GitHub Contribution Streak" />
 </p>
-
 ---
-
 <p align="center">
   <i>"Consistency is the key to becoming a better developer."</i>
 </p>

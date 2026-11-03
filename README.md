@@ -58,3 +58,4 @@ I'm a Computer Science and Engineering student passionate about software develop
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Jinchuriki-7&label=Profile%20Views&color=00D9FF&style=flat" alt="Profile Views" />
 </p>
+---

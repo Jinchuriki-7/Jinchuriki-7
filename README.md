@@ -38,12 +38,6 @@ I'm a Computer Science and Engineering student passionate about software develop
   <img src="https://skillicons.dev/icons?i=c,cpp,java,python,html,css,js,git,github,vscode" alt="Languages and Tools" />
 </p>
 
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jinchuriki-7&show_icons=true&hide=stars&theme=tokyonight&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&bg_color=0D1117" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jinchuriki-7&layout=donut&theme=tokyonight&hide_border=true&title_color=00D9FF&text_color=C9D1D9&bg_color=0D1117" height="180" alt="Most Used Languages" />
-</p>
 
 ## 🔥 Contribution Streak
 

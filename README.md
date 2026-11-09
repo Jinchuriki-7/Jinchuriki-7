@@ -42,7 +42,7 @@ I'm a Computer Science and Engineering student passionate about software develop
 ## 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Jinchuriki-7&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" width="90%" alt="GitHub Contribution Streak" />
+  <img src="https://streak-stats.demolab.com?user=Jinchuriki-7&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&timezone=Asia/Dhaka" width="90%" alt="GitHub Contribution Streak" />
 </p>
 
 ---

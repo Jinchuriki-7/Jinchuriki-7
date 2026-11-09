@@ -1,0 +1,75 @@
+<svg width="800" height="195" viewBox="0 0 800 195"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="GitHub Contribution Streak for Jinchuriki-7">
+
+  <title>GitHub Contribution Streak – Jinchuriki-7</title>
+
+  <!-- Background -->
+  <rect width="800" height="195" rx="12" ry="12" fill="#0D1117"/>
+
+  <!-- Outer border glow -->
+  <rect x="1" y="1" width="798" height="193" rx="11" ry="11"
+        fill="none" stroke="#00D9FF" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Dividers -->
+  <line x1="267" y1="30" x2="267" y2="165" stroke="#21262D" stroke-width="1"/>
+  <line x1="533" y1="30" x2="533" y2="165" stroke="#21262D" stroke-width="1"/>
+
+  <!-- ── Column 1: Total Contributions ── -->
+  <text x="133" y="58"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="13" fill="#8B949E" letter-spacing="1">TOTAL CONTRIBUTIONS</text>
+
+  <text x="133" y="118"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="52" font-weight="700" fill="#FFFFFF">138</text>
+
+  <text x="133" y="148"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="12" fill="#8B949E">All time</text>
+
+  <!-- ── Column 2: Current Streak ── -->
+  <!-- Fire icon -->
+  <text x="400" y="52"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="22">🔥</text>
+
+  <text x="400" y="75"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="13" fill="#00D9FF" letter-spacing="1">CURRENT STREAK</text>
+
+  <text x="400" y="128"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="52" font-weight="700" fill="#FFFFFF">17</text>
+
+  <text x="400" y="143"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="12" fill="#8B949E">days</text>
+
+  <text x="400" y="162"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="12" fill="#8B949E">Oct 24 – Nov 9</text>
+
+  <!-- ── Column 3: Longest Streak ── -->
+  <text x="667" y="58"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="13" fill="#8B949E" letter-spacing="1">LONGEST STREAK</text>
+
+  <text x="667" y="118"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="52" font-weight="700" fill="#FFFFFF">17</text>
+
+  <text x="667" y="143"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="12" fill="#8B949E">days</text>
+
+  <text x="667" y="162"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="12" fill="#8B949E">Oct 24 – Nov 9</text>
+
+  <!-- Footer: timezone label -->
+  <text x="400" y="184"
+        text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
+        font-size="10" fill="#484F58">🕐 Asia/Dhaka (UTC+6) · Updated Nov 09, 2026</text>
+
+</svg>

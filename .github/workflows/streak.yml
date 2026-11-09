@@ -1,0 +1,73 @@
+name: Update Contribution Streak Card
+
+on:
+  schedule:
+    # Runs daily at 00:15 Dhaka time (18:15 UTC previous day)
+    # Dhaka is UTC+6, so midnight Dhaka = 18:00 UTC
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Enable debug output"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update-streak:
+    name: Regenerate Streak SVG
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pytz requests
+
+      - name: Generate streak card
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TZ: Asia/Dhaka
+        run: |
+          python scripts/generate_streak.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet streak-card.svg; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to streak-card.svg"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "streak-card.svg has been updated"
+          fi
+
+      - name: Commit and push updated SVG
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streak-card.svg streak-summary.json
+          git commit -m "chore: update contribution streak card [skip ci]"
+          git push
+
+      - name: Log result
+        run: |
+          echo "=== Streak Card Generation Complete ==="
+          if [ -f streak-summary.json ]; then
+            cat streak-summary.json
+          fi
+          echo "SVG size: $(wc -c < streak-card.svg) bytes"

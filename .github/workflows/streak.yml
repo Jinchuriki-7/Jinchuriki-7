@@ -11,7 +11,10 @@ on:
         description: "Enable debug output"
         required: false
         default: "false"
-        type: boolean
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -71,3 +74,4 @@ jobs:
             cat streak-summary.json
           fi
           echo "SVG size: $(wc -c < streak-card.svg) bytes"
+

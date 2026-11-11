@@ -22,7 +22,7 @@
 
   <text x="133" y="118"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
-        font-size="52" font-weight="700" fill="#FFFFFF">138</text>
+        font-size="52" font-weight="700" fill="#FFFFFF">77</text>
 
   <text x="133" y="148"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
@@ -40,7 +40,7 @@
 
   <text x="400" y="128"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
-        font-size="52" font-weight="700" fill="#FFFFFF">17</text>
+        font-size="52" font-weight="700" fill="#FFFFFF">19</text>
 
   <text x="400" y="143"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
@@ -48,7 +48,7 @@
 
   <text x="400" y="162"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
-        font-size="12" fill="#8B949E">Oct 24 – Nov 9</text>
+        font-size="12" fill="#8B949E">Oct 24 – Nov 11</text>
 
   <!-- ── Column 3: Longest Streak ── -->
   <text x="667" y="58"
@@ -57,7 +57,7 @@
 
   <text x="667" y="118"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
-        font-size="52" font-weight="700" fill="#FFFFFF">17</text>
+        font-size="52" font-weight="700" fill="#FFFFFF">19</text>
 
   <text x="667" y="143"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
@@ -65,11 +65,11 @@
 
   <text x="667" y="162"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
-        font-size="12" fill="#8B949E">Oct 24 – Nov 9</text>
+        font-size="12" fill="#8B949E">Oct 24 – Nov 11</text>
 
   <!-- Footer: timezone label -->
   <text x="400" y="184"
         text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif"
-        font-size="10" fill="#484F58">🕐 Asia/Dhaka (UTC+6) · Updated Nov 09, 2026</text>
+        font-size="10" fill="#484F58">🕐 Asia/Dhaka (UTC+6) · Updated Nov 11, 2026</text>
 
 </svg>

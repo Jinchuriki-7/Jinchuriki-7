@@ -10,6 +10,7 @@ This script:
 2. Calculates streaks using Bangladesh timezone (Asia/Dhaka)
 3. Generates a premium dark-themed SVG card
 4. Writes the SVG to streak-card.svg
+5. Saves a JSON summary for CI verification
 """
 
 import os

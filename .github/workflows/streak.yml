@@ -39,6 +39,8 @@ jobs:
 
       - name: Install dependencies
         run: pip install pytz requests
+        # pytz: timezone support for Asia/Dhaka (UTC+6)
+        # requests: not used directly but kept for future extensions
 
       - name: Generate streak card
         env:

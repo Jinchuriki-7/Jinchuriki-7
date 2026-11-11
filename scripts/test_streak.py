@@ -5,6 +5,17 @@ Run with: python scripts/test_streak.py
 
 Does NOT require a live GitHub token for the unit tests.
 Set GH_TOKEN env var for the integration test.
+
+Tests cover:
+  - Empty input edge case
+  - Single day streaks
+  - Consecutive day streaks
+  - Gaps in streak (broken streak detection)
+  - Today with no contributions
+  - Full Oct24-Nov9 scenario with Nov 7 = 69 contributions
+  - Historical longest streak detection
+  - Date formatting helpers
+  - SVG generation and XML validity
 """
 import sys
 import datetime
@@ -158,3 +169,4 @@ else:
 
 if failed > 0:
     sys.exit(1)
+

@@ -42,6 +42,10 @@ jobs:
         # pytz: timezone support for Asia/Dhaka (UTC+6)
         # requests: not used directly but kept for future extensions
 
+      - name: Run unit tests
+        run: |
+          python scripts/test_streak.py
+
       - name: Generate streak card
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

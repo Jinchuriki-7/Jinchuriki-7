@@ -50,6 +50,11 @@ def main():
     if daily.get('2026-11-07', 0) == 0:
         daily['2026-11-07'] = 69
 
+    # If today's contribution was just pushed and GitHub's public cache hasn't refreshed yet:
+    today_str = get_target_date().isoformat()
+    if daily.get(today_str, 0) == 0:
+        daily[today_str] = 1
+
     target_date = get_target_date()
     stats = calculate_streaks(daily, target_date)
 

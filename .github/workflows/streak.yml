@@ -29,7 +29,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 1
 
       - name: Set up Python
@@ -39,8 +38,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install pytz requests
-        # pytz: timezone support for Asia/Dhaka (UTC+6)
-        # requests: not used directly but kept for future extensions
 
       - name: Run unit tests
         run: |
@@ -48,10 +45,9 @@ jobs:
 
       - name: Generate streak card
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TZ: Asia/Dhaka
         run: |
-          python scripts/generate_streak.py
+          python scripts/update_real_stats.py
 
       - name: Check for changes
         id: changes
@@ -69,15 +65,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add streak-card.svg streak-summary.json
+          git add streak-card.svg
           git commit -m "chore: update contribution streak card [skip ci]"
           git push
 
       - name: Log result
         run: |
           echo "=== Streak Card Generation Complete ==="
-          if [ -f streak-summary.json ]; then
-            cat streak-summary.json
-          fi
           echo "SVG size: $(wc -c < streak-card.svg) bytes"
-
